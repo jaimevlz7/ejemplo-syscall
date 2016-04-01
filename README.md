@@ -16,13 +16,13 @@ Las llamadas más tipicas de un sistema son:
 
 Para syscl_04 : 
 
-#include<stdio.h>
+"#include<stdio.h>
 int main()
 {
   printf("Hola, soy un proceso \n");
   fork();
   printf("Fin \n");
-}
+}"
 
 Llamada al sistema fork()
 
